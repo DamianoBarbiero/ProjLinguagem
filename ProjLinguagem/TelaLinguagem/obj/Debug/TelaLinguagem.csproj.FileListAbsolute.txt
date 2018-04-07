@@ -1,0 +1,14 @@
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\obj\Debug\TelaLinguagem.csprojResolveAssemblyReference.cache
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\obj\Debug\TelaLinguagem.LinguagemTela.resources
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\obj\Debug\TelaLinguagem.Properties.Resources.resources
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\obj\Debug\TelaLinguagem.csproj.GenerateResource.Cache
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\obj\Debug\TelaLinguagem.csproj.CoreCompileInputs.cache
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\bin\Debug\TelaLinguagem.exe.config
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\bin\Debug\TelaLinguagem.exe
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\bin\Debug\TelaLinguagem.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\bin\Debug\Conexao.dll
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\bin\Debug\Entidade.dll
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\bin\Debug\Entidade.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\bin\Debug\Conexao.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\obj\Debug\TelaLinguagem.exe
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjLinguagem\TelaLinguagem\obj\Debug\TelaLinguagem.pdb

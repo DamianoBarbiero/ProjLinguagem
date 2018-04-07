@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexao", "Conexao\Conexao.csproj", "{F30F4AC4-F972-4074-A7D2-0C320840815E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaLinguagem", "TelaLinguagem\TelaLinguagem.csproj", "{E58A62BA-3F4D-4767-B955-6A714805C331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidade", "Entidade\Entidade.csproj", "{CCF9C158-F316-4EFB-BD92-2829834331AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30F4AC4-F972-4074-A7D2-0C320840815E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30F4AC4-F972-4074-A7D2-0C320840815E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30F4AC4-F972-4074-A7D2-0C320840815E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30F4AC4-F972-4074-A7D2-0C320840815E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58A62BA-3F4D-4767-B955-6A714805C331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58A62BA-3F4D-4767-B955-6A714805C331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58A62BA-3F4D-4767-B955-6A714805C331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58A62BA-3F4D-4767-B955-6A714805C331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF9C158-F316-4EFB-BD92-2829834331AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF9C158-F316-4EFB-BD92-2829834331AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF9C158-F316-4EFB-BD92-2829834331AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF9C158-F316-4EFB-BD92-2829834331AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC098650-AFEE-4666-8BA7-A81DD94730A4}
+	EndGlobalSection
+EndGlobal

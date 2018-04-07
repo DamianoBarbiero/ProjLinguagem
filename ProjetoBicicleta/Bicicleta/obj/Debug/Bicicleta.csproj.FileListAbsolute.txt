@@ -1,0 +1,12 @@
+c:\users\thamires\source\repos\DadosBicicleta\Bicicleta\bin\Debug\Bicicleta.dll
+c:\users\thamires\source\repos\DadosBicicleta\Bicicleta\bin\Debug\Bicicleta.pdb
+c:\users\thamires\source\repos\DadosBicicleta\Bicicleta\obj\Debug\Bicicleta.csprojResolveAssemblyReference.cache
+c:\users\thamires\source\repos\DadosBicicleta\Bicicleta\obj\Debug\Bicicleta.csproj.CoreCompileInputs.cache
+c:\users\thamires\source\repos\DadosBicicleta\Bicicleta\obj\Debug\Bicicleta.dll
+c:\users\thamires\source\repos\DadosBicicleta\Bicicleta\obj\Debug\Bicicleta.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjetoBicicleta\Bicicleta\obj\Debug\Bicicleta.csprojResolveAssemblyReference.cache
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjetoBicicleta\Bicicleta\obj\Debug\Bicicleta.csproj.CoreCompileInputs.cache
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjetoBicicleta\Bicicleta\obj\Debug\Bicicleta.dll
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjetoBicicleta\Bicicleta\obj\Debug\Bicicleta.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjetoBicicleta\Bicicleta\bin\Debug\Bicicleta.dll
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjetoBicicleta\Bicicleta\bin\Debug\Bicicleta.pdb
