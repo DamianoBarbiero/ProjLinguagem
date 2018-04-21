@@ -21,5 +21,20 @@ namespace ControleProblemasView
         {
             new FrmTipo().Show();
         }
+
+        private void principalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cadastroNívelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmNivel().Show();
+        }
+
+        private void cadastroProblemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FormProblema().Show();
+        }
     }
 }

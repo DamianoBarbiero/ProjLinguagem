@@ -32,6 +32,7 @@
             this.principalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroTipoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroNívelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroProblemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,23 +50,33 @@
             // 
             this.principalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroTipoToolStripMenuItem,
-            this.cadastroNívelToolStripMenuItem});
+            this.cadastroNívelToolStripMenuItem,
+            this.cadastroProblemaToolStripMenuItem});
             this.principalToolStripMenuItem.Name = "principalToolStripMenuItem";
             this.principalToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.principalToolStripMenuItem.Text = "Principal";
+            this.principalToolStripMenuItem.Click += new System.EventHandler(this.principalToolStripMenuItem_Click);
             // 
             // cadastroTipoToolStripMenuItem
             // 
             this.cadastroTipoToolStripMenuItem.Name = "cadastroTipoToolStripMenuItem";
-            this.cadastroTipoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cadastroTipoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.cadastroTipoToolStripMenuItem.Text = "Cadastro Tipo";
             this.cadastroTipoToolStripMenuItem.Click += new System.EventHandler(this.cadastroTipoToolStripMenuItem_Click);
             // 
             // cadastroNívelToolStripMenuItem
             // 
             this.cadastroNívelToolStripMenuItem.Name = "cadastroNívelToolStripMenuItem";
-            this.cadastroNívelToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cadastroNívelToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.cadastroNívelToolStripMenuItem.Text = "Cadastro Nível";
+            this.cadastroNívelToolStripMenuItem.Click += new System.EventHandler(this.cadastroNívelToolStripMenuItem_Click);
+            // 
+            // cadastroProblemaToolStripMenuItem
+            // 
+            this.cadastroProblemaToolStripMenuItem.Name = "cadastroProblemaToolStripMenuItem";
+            this.cadastroProblemaToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cadastroProblemaToolStripMenuItem.Text = "Cadastro Problema";
+            this.cadastroProblemaToolStripMenuItem.Click += new System.EventHandler(this.cadastroProblemaToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
@@ -89,5 +100,6 @@
         private System.Windows.Forms.ToolStripMenuItem principalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroTipoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroNívelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroProblemaToolStripMenuItem;
     }
 }

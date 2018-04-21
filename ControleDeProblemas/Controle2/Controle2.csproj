@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB.cs" />
+    <Compile Include="NivelDB.cs" />
+    <Compile Include="ProblemaDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoDB.cs" />
   </ItemGroup>

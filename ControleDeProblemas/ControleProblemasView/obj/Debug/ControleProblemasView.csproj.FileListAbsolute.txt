@@ -28,3 +28,5 @@ C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de In
 C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.csproj.CoreCompileInputs.cache
 C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.exe
 C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.FormProblema.resources
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.FrmNivel.resources

@@ -86,6 +86,7 @@
             this.dgTipo.Name = "dgTipo";
             this.dgTipo.Size = new System.Drawing.Size(331, 150);
             this.dgTipo.TabIndex = 6;
+            this.dgTipo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgTipo_CellContentClick);
             // 
             // FrmTipo
             // 

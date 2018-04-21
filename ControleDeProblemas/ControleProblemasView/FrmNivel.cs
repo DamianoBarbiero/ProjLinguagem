@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Controle2;
+using Entidade;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,29 @@ namespace ControleProblemasView
         public FrmNivel()
         {
             InitializeComponent();
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            Nivel nivel = new Nivel();
+            nivel.Id = Convert.ToInt32(txtId.Text);
+            nivel.Descricao = txtDescricao.Text;
+
+            //MessageBox.Show("Olá turma!" + tipo);
+
+            if (new NivelDB().insert(nivel))
+            {
+                MessageBox.Show("Registro inserido!");
+            }
+            else
+            {
+                MessageBox.Show("Erro ao inserir registro!");
+            }
+        }
+
+        private void dgTipo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            dgNivel.DataSource = new NivelDB().ListarNivel();
         }
     }
 }
