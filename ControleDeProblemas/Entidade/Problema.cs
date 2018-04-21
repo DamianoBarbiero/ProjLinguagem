@@ -20,10 +20,11 @@ namespace Entidade
         public override string ToString()
         {
             return "Id: " + this.Id + 
-                 "\nDescrição: " + this.Descricao +
-                 "\nTipo: " + this.Tipo.Descricao +
-                 "\nNivel: " 
-                 + this.NivelDificuldade.Descricao;
+                 "\n Descrição: " + this.Descricao +
+                 "\n DataCriacao: " + this.DataCriacao +
+                 "\n Tipo: " + this.Tipo.Id +
+                 "\n NivelDificuldade: " 
+                 + this.NivelDificuldade.Id;
         }
 
         #endregion

@@ -33,20 +33,29 @@ namespace ControleProblemasView
         {
             CarregarGrid();
             cboTipo.DataSource = new NivelDB().ListarNivel();
-            cboTipo.DisplayMember = "descricao";
+            //cboTipo.DisplayMember = "descricao";
             cboTipo.ValueMember = "id";
 
             CarregarGrid();
             cboNivel.DataSource = new TipoDB().ListarTipo();
-            cboNivel.DisplayMember = "descrição";
+            //cboNivel.DisplayMember = "descrição";
             cboNivel.ValueMember = "id";
+
+            dgProblema.DataSource = new ProblemaDB().ListarProblema();
         }
 
         private void CarregaComboTipo()
         {
             cboTipo.DataSource = new TipoDB().ListarTipo();
-            cboTipo.DisplayMember = "descricao";
+           // cboTipo.DisplayMember = "descricao";
             cboTipo.ValueMember = "id";
+        }
+
+        private void CarregaComboNivel()
+        {
+            cboNivel.DataSource = new NivelDB().ListarNivel();
+            // cboTipo.DisplayMember = "descricao";
+            cboNivel.ValueMember = "id";
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)

@@ -40,12 +40,12 @@ namespace ControleProblemasView
 
         private void FrmTipo_Load(object sender, EventArgs e)
         {
-            //dgTipo.DataSource = new TipoDB().ListarTipo();
+            dgTipo.DataSource = new TipoDB().ListarTipo();
         }
 
         private void dgTipo_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            dgTipo.DataSource = new TipoDB().ListarTipo();
+           //dgTipo.DataSource = new TipoDB().ListarTipo();
         }
     }
 }

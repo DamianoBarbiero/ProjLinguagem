@@ -101,6 +101,7 @@
             this.Controls.Add(this.txtId);
             this.Name = "FrmNivel";
             this.Text = "FrmNivel";
+            this.Load += new System.EventHandler(this.FrmNivel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgNivel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -35,7 +35,7 @@ namespace Controle2
         {
             using (db = new DB())
             {
-                var sql = "SELECT P.descricao, P.datacriacao, T.ID, T.descricao, N.ID, N.descricao FROM TB_PROBLEMA P, TB_NIVEL N, TB_TIPO T WHERE P.TIPO = N.id AND P.NIVEL = T.ID";
+                var sql = "SELECT P.descricao, P.datacriacao, T.ID, N.ID FROM TB_PROBLEMA P, TB_NIVEL N, TB_TIPO T WHERE P.TIPO = T.ID AND P.NIVEL = N.ID";
                 var retorno = db.ExecutaComandoRetorno(sql);
                 return TransformaSQLReaderEmList(retorno);
             }
@@ -51,6 +51,7 @@ namespace Controle2
                 {
                     Id = Convert.ToInt32(retorno["id"]),
                     Descricao = retorno["descricao"].ToString(),
+                    DataCriacao = Convert.ToDateTime(retorno["datacriacao"].ToString()),
                     Tipo = new Tipo() { Id = Convert.ToInt32(retorno["id"].ToString()) } ,
                     NivelDificuldade = new Nivel() { Id = Convert.ToInt32(retorno["id"].ToString()) },
                 };

@@ -39,6 +39,11 @@ namespace ControleProblemasView
 
         private void dgTipo_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            
+        }
+
+        private void FrmNivel_Load(object sender, EventArgs e)
+        {
             dgNivel.DataSource = new NivelDB().ListarNivel();
         }
     }
