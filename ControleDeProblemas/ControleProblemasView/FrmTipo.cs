@@ -25,7 +25,7 @@ namespace ControleProblemasView
             tipo.Id = Convert.ToInt32(txtId.Text);
             tipo.Descricao = txtDescricao.Text;
 
-            //MessageBox.Show("Olá turma!" + tipo);
+            MessageBox.Show("Olá turma!" + tipo);
 
             if (new TipoDB().insert(tipo))
             {

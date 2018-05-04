@@ -87,6 +87,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(180, 20);
             this.txtId.TabIndex = 7;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // FrmNivel
             // 

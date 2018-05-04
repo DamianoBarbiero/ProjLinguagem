@@ -46,5 +46,10 @@ namespace ControleProblemasView
         {
             dgNivel.DataSource = new NivelDB().ListarNivel();
         }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -17,14 +17,14 @@ namespace Controle2
         {
             try
             {
-                string sql = "INSERT INTO TB_PROBLEMA (DESCRICAO, DATACRIACAO, TIPO, NIVEL)" + 
+                string sql = "INSERT INTO TB_PROBLEMA (DESCRICAO, DATACRIACAO, TIPO, NIVEL)" +
                              " VALUES ('" + problema.Descricao + "', '" + problema.DataCriacao + "', '" + problema.Tipo.Id + "', '" + problema.NivelDificuldade.Id + "' )";
                 using (db = new DB())
                 {
                     db.ExecutaComando(sql);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
             }
@@ -35,7 +35,7 @@ namespace Controle2
         {
             using (db = new DB())
             {
-                var sql = "SELECT P.descricao, P.datacriacao, T.ID, N.ID FROM TB_PROBLEMA P, TB_NIVEL N, TB_TIPO T WHERE P.TIPO = T.ID AND P.NIVEL = N.ID";
+                var sql = "SELECT P.id, P.descricao, P.datacriacao, T.id, N.id FROM TB_PROBLEMA P, TB_NIVEL N, TB_TIPO T WHERE P.TIPO = T.ID AND P.NIVEL = N.ID"; 
                 var retorno = db.ExecutaComandoRetorno(sql);
                 return TransformaSQLReaderEmList(retorno);
             }
@@ -49,11 +49,12 @@ namespace Controle2
             {
                 var item = new Problema()
                 {
+                    
                     Id = Convert.ToInt32(retorno["id"]),
                     Descricao = retorno["descricao"].ToString(),
                     DataCriacao = Convert.ToDateTime(retorno["datacriacao"].ToString()),
-                    Tipo = new Tipo() { Id = Convert.ToInt32(retorno["id"].ToString()) } ,
-                    NivelDificuldade = new Nivel() { Id = Convert.ToInt32(retorno["id"].ToString()) },
+                    Tipo = new Tipo() { Id = Convert.ToInt32(retorno["id"].ToString()) , Descricao =retorno["descricao"].ToString() } ,
+                    NivelDificuldade = new Nivel() { Id = Convert.ToInt32(retorno["id"].ToString()), Descricao = retorno["descricao"].ToString() },
                 };
 
                 listProblema.Add(item);

@@ -32,15 +32,14 @@ namespace ControleProblemasView
         private void FormProblema_Load(object sender, EventArgs e)
         {
             CarregarGrid();
-            cboTipo.DataSource = new NivelDB().ListarNivel();
+            cboNivel.DataSource = new NivelDB().ListarNivel();
             //cboTipo.DisplayMember = "descricao";
-            cboTipo.ValueMember = "id";
-
-            CarregarGrid();
-            cboNivel.DataSource = new TipoDB().ListarTipo();
-            //cboNivel.DisplayMember = "descrição";
             cboNivel.ValueMember = "id";
 
+            cboTipo.DataSource = new TipoDB().ListarTipo();
+            //cboNivel.DisplayMember = "descrição";
+            cboTipo.ValueMember = "id";
+           
             dgProblema.DataSource = new ProblemaDB().ListarProblema();
         }
 
@@ -60,16 +59,15 @@ namespace ControleProblemasView
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            string id = cboTipo.SelectedValue.ToString();
-            MessageBox.Show("id" + id);
-
             Problema prob = new Problema();
+ 
             prob.Descricao = txtDescricao.Text;
             prob.DataCriacao = Convert.ToDateTime(txtData.Text);
             prob.Tipo = new Tipo() { Id = Convert.ToInt32(cboTipo.SelectedValue) }; // Descricao = cboTipo.SelectedItem.ToString()
-            //  prob.Tipo =  new Tipo() { cbTipo.SelectedValue ,  };
             prob.NivelDificuldade = new Nivel() { Id = Convert.ToInt32(cboNivel.SelectedValue) }; // Descricao = cboNivel.SelectedItem.ToString()
 
+
+            
             if (new ProblemaDB().insert(prob))
             {
                 MessageBox.Show("Registro inserido!");
@@ -91,6 +89,11 @@ namespace ControleProblemasView
         }
 
         private void dgProblema_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }
