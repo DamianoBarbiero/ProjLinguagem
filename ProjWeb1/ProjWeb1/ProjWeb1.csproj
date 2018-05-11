@@ -77,7 +77,10 @@
   <ItemGroup>
     <Content Include="default.aspx" />
     <Content Include="listar.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="MensagemDefault.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="default.aspx.cs">
@@ -93,6 +96,13 @@
     </Compile>
     <Compile Include="listar.aspx.designer.cs">
       <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MensagemDefault.aspx.cs">
+      <DependentUpon>MensagemDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MensagemDefault.aspx.designer.cs">
+      <DependentUpon>MensagemDefault.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
