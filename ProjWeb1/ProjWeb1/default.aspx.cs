@@ -33,7 +33,7 @@ namespace ProjWeb1
                                                 , txtMaior.Text);
             lblDeclaracao.Text = msgDeclaracao;
 
-            string  declaracao = "C:\\TopicosAvancados\\carta.txt";
+            string  declaracao = "C:\\Users\\damia\\Documents\\Faculdade Logatti\\carta.txt";
             if (!System.IO.File.Exists(declaracao))
             {
                 System.IO.File.Create(declaracao).Close();
@@ -43,7 +43,7 @@ namespace ProjWeb1
             arquivo.Close();
 
 
-            InserirBanco(txtNome.Text);
+            //InserirBanco(txtNome.Text);
 
 
         }

@@ -7,3 +7,11 @@ C:\Users\João Missorino\source\repos\ProjWeb1\ProjControler\obj\Debug\ProjContr
 C:\Users\João Missorino\source\repos\ProjWeb1\ProjControler\obj\Debug\ProjControler.csproj.CopyComplete
 C:\Users\João Missorino\source\repos\ProjWeb1\ProjControler\obj\Debug\ProjControler.dll
 C:\Users\João Missorino\source\repos\ProjWeb1\ProjControler\obj\Debug\ProjControler.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\bin\Debug\ProjControler.dll
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\bin\Debug\ProjControler.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\bin\Debug\ProjModel.dll
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\bin\Debug\ProjModel.pdb
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\obj\Debug\ProjControler.csprojResolveAssemblyReference.cache
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\obj\Debug\ProjControler.csproj.CoreCompileInputs.cache
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\obj\Debug\ProjControler.dll
+C:\Users\damia\Documents\Faculdade Logatti\Tópicos Avançados em Sistemas de Inf - Andre\ProjWeb1\ProjControler\obj\Debug\ProjControler.pdb
